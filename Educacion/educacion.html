@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>Hoja de Vida Digital</title>
+  </head>
+  <body>
+    <h1><img src="../image/logo.svg" alt="Logo Personal" title="Santiago Pérez">Hoja de Vida</h1>
+    <h2>Santiago Pérez</h2>
+    <h3>23 de septiembre de 1991</h3>
+    <h3>Bello, Colombia</h3>
+    <a href="../index.html">Inicio</a>
+    <a href="../Experiencia/experiencia.html">Experiencia</a>
+    <h2>Educación</h2>
+    <table border="1" cellpadding="2" cellspacing="0">
+      <thead>
+        <tr>
+          <th>Año</th>
+          <th>Institución</th>
+          <th>Lugar</th>
+          <th>Título</th>
+          <th>¿Culminó?</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>2009</th>
+          <th>I.E.A.D.M</th>
+          <th>Bello</th>
+          <th>Bachiller Académico</th>
+          <th>Si</th>
+        </tr>
+        <tr>
+          <th>2010</th>
+          <th>Convenio SENA y I.U.S.H</th>
+          <th>Medellín</th>
+          <th>Técnico en Compras</th>
+          <th>Si</th>
+        </tr>
+        <tr>
+          <th>2019</th>
+          <th>Next University</th>
+          <th>U.S.A (Virtual)</th>
+          <th>Desarrollador Web</th>
+          <th>En curso</th>
+        </tr>
+      </tbody>
+    </table>
+    <form>
+      <fieldset>
+        <legend><h3>Agregar Estudios</h3></legend>
+        <label for="date">Año</label>
+        <select id="date">
+          <option>2019</option>
+          <option>2020</option>
+          <option>2021</option>
+          <option>2022</option>
+        </select>
+        <br>
+        <br>
+        <label for="Institucion">Institución</label>
+        <input type="text" name="Institucion" placeholder="Institución" required id="Institucion">
+        <br>
+        <br>
+        <label for="Lugar">Ludar</label>
+        <textarea name="Lugar" id="Lugar" rows="1" cols="20"></textarea>
+        <br>
+        <br>
+        <input type="submit" name="Enviar" value="Enviar">
+      </fieldset>
+    </form>
+    <footer>Contacto: elsachi02@gmail.com</footer>
+  </body>
+</html>
